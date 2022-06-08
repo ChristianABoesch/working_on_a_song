@@ -262,8 +262,50 @@ public class WorkingOnASong {
           System.out.println("*music*");
           player.play(p1, p2, p3);
           System.out.println();
+          System.out.println("My my, this doesn't sound all that better does it?");
+          scnr.nextLine();
+          System.out.println("What do you think?");
+          scnr.nextLine();
+          System.out.println("1 for 'this is better'? 2 for 'not so much'?");
+          String betterOrNotSoMuch = scnr.nextLine();
+          if (betterOrNotSoMuch.equals("1")) {
+            System.out.println();
+            System.out.println("That was a trick question. OF COURSE it's not better.");
+            scnr.nextLine();
+            System.out.println("It's honestly quite worse to be honest.");
+            scnr.nextLine();
+            System.out.println("Why did I even think to add an electric guitar as an option? It definitely has no business existing in this song.");
+            scnr.nextLine();
+            System.out.println("Now, I want you to note that I'm not blaming you for choosing this option, I'm blaming myself for being stupid enough to include it. Had I traded this option in for a different one, it may have turned out a little better.");
+            scnr.nextLine();
+            System.out.println("This failure is entirely on my part. I am sorry.");
+            scnr.nextLine();
+            System.out.println("So to be rid of any failures going into making this song perfect, we'll have to move away from the electric guitar.");
+            scnr.nextLine();
+            System.out.println("And you may call me an elitist, but guitars sound better without electricity anyway.");
+            scnr.nextLine();
+          } else if (betterOrNotSoMuch.equals("2")) {
+            System.out.println();
+            System.out.println("You know, that's exactly what I thought you'd say.");
+            scnr.nextLine();
+            System.out.println("It truly is terrible. Just terrible.");
+            scnr.nextLine();
+            System.out.println("It sounds like you and me are both pretty open to taking it out of the song.");
+            scnr.nextLine();
+            System.out.println("Okay then. Consider it, taken out of.");
+            scnr.nextLine();
+            System.out.println("You see? This teamwork is really working.");
+            scnr.nextLine();
+          } else {
+            System.out.println();
+            System.out.println("Okay, I'm guessing by you not picking either option, you're giving me complete free will to do whatever I desire to do going forward.");
+            scnr.nextLine();
+            System.out.println("And while I do appreciate this act of yours, know that you do not have to keep on doing this.");
+            scnr.nextLine();
+            System.out.println("But as for right now, I say we ditch the guitar altogether. It was being kind of a bug.");
+            scnr.nextLine();
+          }
         } else if (guitarOrViolin.equals("2")) {
-          System.out.println();
           System.out.println();
           System.out.println("Violin coming right up!");
           scnr.nextLine();
@@ -282,27 +324,49 @@ public class WorkingOnASong {
           System.out.println("*music*");
           player.play(p7);
           System.out.println();
+          System.out.println("Lovely. Tell me, doesn't that fascinate you?");
+          scnr.nextLine();
           System.out.println("Now why don't we hear all of that together?");
           scnr.nextLine();
           System.out.println("*music*");
           player.play(p4, p5, p7);
           System.out.println();
+          System.out.println("Say, you wouldn't mind if the violin was just a little louder than the actual melody, would you?");
+          scnr.nextLine();
+          System.out.println("Because I do. The melody cannot be outshined, for goodness sake, I wrote it for a reason!");
+          scnr.nextLine();
+          System.out.println("The violin was only meant to serve as a COUNTER-melody, playing in support of the ACTUAL melody.");
+          scnr.nextLine();
+          System.out.println("All it's going to do is steal the spotlight and make it about itself!");
+          scnr.nextLine();
+          System.out.println("This is NOT what I wanted!");
+          scnr.nextLine();
+          System.out.println("I'm sorry, but we're going to have to go without this violin. There's no other way.");
+          scnr.nextLine();
+          System.out.println("This song has to be perfect.");
+          scnr.nextLine();
         } else {
-          System.out.println("Well for the love of God, don't just say nothing!");
+          System.out.println("Interesting.");
           scnr.nextLine();
-          System.out.println("Don't just skip over my question as if it doesn't mean anything! This means everything to me! Remember, this is my song for you!");
+          System.out.println("You must be a fan of the musical genre of minimalism, hmmm?");
           scnr.nextLine();
-          System.out.println("Do you just not CARE that I took the time to write anything down?");
+          System.out.println("Not too much needed to still be able to convey so much?");
           scnr.nextLine();
-          System.out.println("Hmm. Perhaps that's it. Perhapws it means the world to me, but it means absolutely nothing to you.");
+          System.out.println("Is that what is running through your mind right now?");
           scnr.nextLine();
-          System.out.println("Well I'm willing and able to change your mind if you let me.");
+          System.out.println("Is that what you feel this song truly means to you? What direction you're willing to have it go?");
           scnr.nextLine();
-          System.out.println("After all, we're only getting started.");
+          System.out.println("I dare say, this changes everything. This changes every plan I could possibly have had concerning the future of this song.");
+          scnr.nextLine();
+          System.out.println("I do marvel at your choice, however. In fact, I applaud it.");
+          scnr.nextLine();
+          System.out.println("With that said though, I think there are still some more bases we need to cover.");
+          scnr.nextLine();
+          System.out.println("After all, with a song like this, there are still other ways of making it better.");
+          scnr.nextLine();
+          System.out.println("Let me show you.");
           scnr.nextLine();
         }
-        player.play(p7);
-        player.play(p1, p2, p3);
         System.out.println();
     }
   }
