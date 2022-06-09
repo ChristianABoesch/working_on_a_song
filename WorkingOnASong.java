@@ -12,6 +12,9 @@ public class WorkingOnASong {
         Pattern p5 = new Pattern("V1 I[Flute] FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | DminQQ CmajQQ GminQQ CmajQQ |");
         Pattern p6 = new Pattern("V2 I[Overdriven_Guitar] FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FmajI FmajI FmajI FmajI CmajI CmajI CmajI CmajI | BbmajI BbmajI BbmajI BbmajI FmajI FmajI FmajI FmajI | Rw | Rh CmajQQ |");
         Pattern p7 = new Pattern("V3 I[Violin] Ai Fi Ci Ai Gi Ei Ci Gi Bbi Fi Di Bbi Ah | Ai Fi Ci Ai C6i Gi Ei C6i Bbi C6i D6i E6i F6i C6i Ai Fi | Ai Fi Ci Ai Gi Ei Ci Gi Bbi Fi Di Bbi Ah | DminQQ CmajQQ Di Ci Dq Eq Fi Gi");
+        Pattern q1 = new Pattern("V3 I[Violin] Aq C6i Eq Fi Ei Dq Chq | Aq C6i Fq Gi Fi Gh Ch | Aq C6i Eq Fi Ei Fq Gq Aq Bbq | Gh Fq Dq Eq Fq Gq Cq");
+        Pattern q2 = new Pattern("V2 I[Overdriven_Guitar] AminQQ AminQQ BbmajQQ BbmajQQ | FmajQQ FmajQQ CmajQQ CmajQQ | AminQQ AminQQ BbmajQQ GminQQ | CmajQQ FmajQQ CmajQQ BbmajQQ");
+        Pattern drumRoll = new Pattern("V0 I[Piano] Cs Cs Cs Cs Cs Cs Cs Cs Cs Cs Cs Cs");
         Player player = new Player();
         System.out.println("Hi there. I was hoping you would stop by.");
         scnr.nextLine();
@@ -304,6 +307,8 @@ public class WorkingOnASong {
             scnr.nextLine();
             System.out.println("But as for right now, I say we ditch the guitar altogether. It was being kind of a bug.");
             scnr.nextLine();
+            System.out.println("I'm sure you understand.");
+            scnr.nextLine();
           }
         } else if (guitarOrViolin.equals("2")) {
           System.out.println();
@@ -367,6 +372,57 @@ public class WorkingOnASong {
           System.out.println("Let me show you.");
           scnr.nextLine();
         }
+        System.out.println("Say, since we've toyed around a bit with additional instruments, I've had enough time to think of an even better way to improve the song.");
+        scnr.nextLine();
+        System.out.println("Drum roll please!");
+        scnr.nextLine();
+        player.play(drumRoll);
+        System.out.println("That was ... not a drum roll. Oh well. Anyway!");
+        scnr.nextLine();
+        System.out.println("How about we do some actual genuine SONG-writing, and create a new section!");
+        scnr.nextLine();
+        System.out.println("Something to go with our main hook, something to spice the song up a bit!");
+        scnr.nextLine();
+        System.out.println("We can make it sound even more different than what we've already got. Something that ventures away for a moment, in a devious fashion.");
+        scnr.nextLine();
+        System.out.println("Anyone else who would have the pleasure to listen to this song (not that it matters anyway, this is still your song, don't ever forget that) will surely be surprised at the sound of this mere B-section.");
+        scnr.nextLine();
+        System.out.println("Just give me a second to work things out.");
+        scnr.nextLine();
+        System.out.println("...");
+        scnr.nextLine();
+        System.out.println("On second thought actually, I will need more than a second.");
+        scnr.nextLine();
+        System.out.println("This could take me up to 20 minutes.");
+        scnr.nextLine();
+        System.out.println("Believe me, it wasn't easy to write the very first melody! Of course, you wouldn't quite know. You're weren't there.");
+        scnr.nextLine();
+        System.out.println("So if you just give me 20 minutes minimum, I should have a melody for you.");
+        scnr.nextLine();
+        System.out.println("Oh dear me, I wish I could speed things up for you. But I'm afraid I don't know how.");
+        scnr.nextLine();
+        System.out.println("How cool would it be if I had a feature that allowed you to press '1' to travel forward in time. Too bad I don't though, so it would never work.");
+        String forwardInTime = scnr.nextLine();
+        if (forwardInTime.equals("1")) {
+          System.out.println();
+          System.out.println("Wha-- ... how did you ...?");
+          scnr.nextLine();
+          System.out.println("Did you actually just travel 20 minutes into the future?");
+          scnr.nextLine();
+          System.out.println("I cannot believe it.");
+          scnr.nextLine();
+        } else {
+          System.out.println();
+          System.out.println("Okay fine, I did. Seems you can't just seem to play along, so I'll just press '1' for you.");
+          scnr.nextLine();
+          System.out.println("My god you're boring.");
+          scnr.nextLine();
+          System.out.println("*boop*");
+          System.out.println("Wha-- ... how did you ...?");
+        }
+        player.play(q1);
+        player.play(q2);
+        player.play(q1, q2);
         System.out.println();
     }
   }
