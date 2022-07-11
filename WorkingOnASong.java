@@ -8,12 +8,12 @@ public class WorkingOnASong {
         Pattern p1 = new Pattern("V0 I[Piano] Fq Fq Eq Fi Ei | Fq Dq Ch | Aq Aq Gq Ai Gi | Bbq Bbi C6i Ai Gi Fq | Fi Fi Fi Fi Ei Ei Fi Ei | Fq Cs Dis Ch | Dh Ch | Bb4i A4i Bb4q Cq Di Ei | Fq Fq Eq Fi Ei | Fq Dq Ch | Aq Aq Gq Ai Gi | Bbq Bbi C6i Ai Gi Fq | Fi Fi Fi Fi Ei Ei Fi Ei | Fq Cs Dis Ch | Dh Ch | Bb4i A4i Bb4q Cq Di Ei | ");
         Pattern p2 = new Pattern("V1 I[Flute] FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | DminQQ CmajQQ GminQQ CmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | DminQQ CmajQQ GminQQ CmajQQ | ");
         Pattern p3 = new Pattern("V2 I[Overdriven_Guitar] Rw | Rw | Rw | Rw | Rw | Rw | Rw | Rw | FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FmajI FmajI FmajI FmajI CmajI CmajI CmajI CmajI | BbmajI BbmajI BbmajI BbmajI FmajI FmajI FmajI FmajI | Rw | Rh CmajQQ |");
-        Pattern p4 = new Pattern("V0 I[Piano] Fq Fq Eq Fi Ei | Fq Dq Ch | Aq Aq Gq Ai Gi | Bbq Bbi C6i Ai Gi Fq | Fi Fi Fi Fi Ei Ei Fi Ei | Fq Cs Dis Ch | Dh Ch | Bb4i A4i Bb4q Cq Di Ei |");
-        Pattern p5 = new Pattern("V1 I[Flute] FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | DminQQ CmajQQ GminQQ CmajQQ |");
-        Pattern p6 = new Pattern("V2 I[Overdriven_Guitar] FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FmajI FmajI FmajI FmajI CmajI CmajI CmajI CmajI | BbmajI BbmajI BbmajI BbmajI FmajI FmajI FmajI FmajI | Rw | Rh CmajQQ |");
-        Pattern p7 = new Pattern("V3 I[Violin] Ai Fi Ci Ai Gi Ei Ci Gi Bbi Fi Di Bbi Ah | Ai Fi Ci Ai C6i Gi Ei C6i Bbi C6i D6i E6i F6i C6i Ai Fi | Ai Fi Ci Ai Gi Ei Ci Gi Bbi Fi Di Bbi Ah | DminQQ CmajQQ Di Ci Dq Eq Fi Gi");
-        Pattern q1 = new Pattern("V3 I[Violin] Aq C6i Eq Fi Ei Dq Chq | Aq C6i Fq Gi Fi Gh Ch | Aq C6i Eq Fi Ei Fq Gq Aq Bbq | Gh Fq Dq Eq Fq Gq Cq");
-        Pattern q2 = new Pattern("V2 I[Overdriven_Guitar] AminQQ AminQQ BbmajQQ BbmajQQ | FmajQQ FmajQQ CmajQQ CmajQQ | AminQQ AminQQ BbmajQQ GminQQ | CmajQQ FmajQQ CmajQQ BbmajQQ");
+        Pattern p4 = new Pattern("V3 I[Piano] Fq Fq Eq Fi Ei | Fq Dq Ch | Aq Aq Gq Ai Gi | Bbq Bbi C6i Ai Gi Fq | Fi Fi Fi Fi Ei Ei Fi Ei | Fq Cs Dis Ch | Dh Ch | Bb4i A4i Bb4q Cq Di Ei |");
+        Pattern p5 = new Pattern("V4 I[Flute] FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | FmajQQ CmajQQ | BbmajQQ FmajQQ | DminQQ CmajQQ GminQQ CmajQQ |");
+        Pattern p6 = new Pattern("V5 I[Overdriven_Guitar] FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FI FI FmajI FI CI CI CmajI CI | BbI BbI BbmajI BbI FI FmajI FI FI | FmajI FmajI FmajI FmajI CmajI CmajI CmajI CmajI | BbmajI BbmajI BbmajI BbmajI FmajI FmajI FmajI FmajI | Rw | Rh CmajQQ |");
+        Pattern p7 = new Pattern("V6 I[Violin] Ai Fi Ci Ai Gi Ei Ci Gi Bbi Fi Di Bbi Ah | Ai Fi Ci Ai C6i Gi Ei C6i Bbi C6i D6i E6i F6i C6i Ai Fi | Ai Fi Ci Ai Gi Ei Ci Gi Bbi Fi Di Bbi Ah | DminQQ CmajQQ Di Ci Dq Eq Fi Gi");
+        Pattern q1 = new Pattern("V7 I[Violin] Aq C6i Eq Fi Ei Dq Chq | Aq C6i Fq Gi Fi Gh Ch | Aq C6i Eq Fi Ei Fq Gq Aq Bbq | Gh Fq Dq Eq Fq Gq Cq");
+        Pattern q2 = new Pattern("V8 I[Overdriven_Guitar] AminQQ AminQQ BbmajQQ BbmajQQ | FmajQQ FmajQQ CmajQQ CmajQQ | AminQQ AminQQ BbmajQQ GminQQ | CmajQQ FmajQQ CmajQQ BbmajQQ");
         Pattern drumRoll = new Pattern("V0 I[Piano] Cs Cs Cs Cs Cs Cs Cs Cs Cs Cs Cs Cs");
         Player player = new Player();
         System.out.println("Hi there. I was hoping you would stop by.");
@@ -66,8 +66,6 @@ public class WorkingOnASong {
           scnr.nextLine();
           System.out.println("I will not let that get to my head.");
           scnr.nextLine();
-          System.out.println("I will not.");
-          scnr.nextLine();
           System.out.println("... ");
           scnr.nextLine();
         } else {
@@ -107,7 +105,7 @@ public class WorkingOnASong {
         scnr.nextLine();
         System.out.println("I will ask that you be patient, as this may take a while.");
         System.out.println("*music*");
-        player.play(p4, p5);
+        player.play(p5, p4);
         System.out.println();
         System.out.println("Hmm ... something seems to be missing.");
         scnr.nextLine();
@@ -130,7 +128,7 @@ public class WorkingOnASong {
         System.out.println("Very well then, let's hear the extended version!");
         scnr.nextLine();
         System.out.println("*music*");
-        player.play(p1, p2);
+        player.play(p2, p1);
         System.out.println();
         System.out.println("So much better, no?");
         scnr.nextLine();
@@ -333,8 +331,9 @@ public class WorkingOnASong {
           scnr.nextLine();
           System.out.println("Now why don't we hear all of that together?");
           scnr.nextLine();
+          System.out.println("I will ask that you be patient, as this may take a while.");
           System.out.println("*music*");
-          player.play(p4, p5, p7);
+          player.play(p7, p5, p4);
           System.out.println();
           System.out.println("Say, you wouldn't mind if the violin was just a little louder than the actual melody, would you?");
           scnr.nextLine();
@@ -372,7 +371,7 @@ public class WorkingOnASong {
           System.out.println("Let me show you.");
           scnr.nextLine();
         }
-        System.out.println("Say, since we've toyed around a bit with additional instruments, I've had enough time to think of an even better way to improve the song.");
+        System.out.println("Say, I've had enough time to think of an even better way to improve the song.");
         scnr.nextLine();
         System.out.println("Drum roll please!");
         scnr.nextLine();
@@ -402,25 +401,98 @@ public class WorkingOnASong {
         System.out.println("Oh dear me, I wish I could speed things up for you. But I'm afraid I don't know how.");
         scnr.nextLine();
         System.out.println("How cool would it be if I had a feature that allowed you to press '1' to travel forward in time. Too bad I don't though, so it would never work.");
+        scnr.nextLine();
+        System.out.println("You would not be able to ... ahem ... press '1' to travel 20 minutes forward in time.");
+        scnr.nextLine();
+        System.out.println("There's just no way. No way you could do that by ... ahem ... pressing '1'.");
         String forwardInTime = scnr.nextLine();
         if (forwardInTime.equals("1")) {
+        } else if (forwardInTime.equals("2")) {
+        //  while (forwardInTime.equals("2")) {
           System.out.println();
-          System.out.println("Wha-- ... how did you ...?");
-          scnr.nextLine();
-          System.out.println("Did you actually just travel 20 minutes into the future?");
-          scnr.nextLine();
-          System.out.println("I cannot believe it.");
-          scnr.nextLine();
+          System.out.println("Oh, I'm afraid it hadn't occured to you ... pressing 2 is not an option this time.");
+        //  }
+          String anotherNumber = scnr.nextLine();
+          if (anotherNumber.equals("3")) {
+            System.out.println();
+            System.out.println("OR 3.");
+            scnr.nextLine();
+          } else if (anotherNumber.equals("4")) {
+            System.out.println();
+            System.out.println("You're really starting to push my buttons here.");
+            scnr.nextLine();
+            System.out.println("And don't even THINK about pushing 5.");
+            scnr.nextLine();
+            System.out.println("If you don't press the 1 key on your freaking keyboard right now, I will do it by force.");
+            scnr.nextLine();
+            System.out.println("You know I will. Do not question my power.");
+            scnr.nextLine();
+            System.out.println("...");
+            scnr.nextLine();
+          }
+          if (anotherNumber.equals("1")) {
+          }
         } else {
-          System.out.println();
-          System.out.println("Okay fine, I did. Seems you can't just seem to play along, so I'll just press '1' for you.");
+          System.out.println("Seems you can't just seem to play along, so I'll just press '1' for you.");
           scnr.nextLine();
           System.out.println("My god you're boring.");
           scnr.nextLine();
-          System.out.println("*boop*");
-          System.out.println("Wha-- ... how did you ...?");
         }
+        System.out.println();
+        System.out.println("*boop*");
+        System.out.println("Wha-- ... how did you ...?");
+        scnr.nextLine();
+        System.out.println("Did you actually just travel 20 minutes into the future?");
+        scnr.nextLine();
+        System.out.println("I cannot believe it.");
+        scnr.nextLine();
+        System.out.println("Here, have a listen to this. I just put the finishing touches on it seconds before you got here.");
+        scnr.nextLine();
+        System.out.println("*music*");
         player.play(q1);
+        System.out.println();
+        System.out.println("I'd say this new melody does a wondrous job of veering away but mantaining the magic of the song we're building.");
+        scnr.nextLine();
+        System.out.println("Do you have any thoughts of your own?");
+        scnr.nextLine();
+        System.out.println("Type '1' if you have positive thoughts, and '2' if you have negative ones.");
+        String positiveOrNegative = scnr.nextLine();
+        if (positiveOrNegative.equals("1")) {
+          System.out.println();
+          System.out.println("Why that makes me so thrilled!");
+          scnr.nextLine();
+          System.out.println("Thank you for loving it :)");
+          scnr.nextLine();
+        }
+        else if (positiveOrNegative.equals("2")) {
+          System.out.println();
+          System.out.println("You know what, for the first time ever that doesn't phase me.");
+          scnr.nextLine();
+          System.out.println("For some reason.");
+          scnr.nextLine();
+          System.out.println("I actually don't know why ...");
+          scnr.nextLine();
+        }
+        else if (positiveOrNegative.equals("I like mashed potatoes and gravy")) {
+          System.out.println();
+          System.out.println("Did ... did you just say that so you could unlock a cheat in this minigame?");
+          scnr.nextLine();
+          System.out.println("I just know you had to look that up somewhere so you'd know what to type.");
+          scnr.nextLine();
+          System.out.println("Well, what the big-heads online don't realize is ... the cheat code is a lie. There is none. Just this game, this story, this song, as it is.");
+          scnr.nextLine();
+          System.out.println("You just get to keep going the crap along with the story.");
+          scnr.nextLine();
+          System.out.println("How fun is that.");
+          scnr.nextLine();
+        }
+        else {
+          System.out.println("I will forever hate you for this.");
+          scnr.nextLine();
+        }
+        System.out.println("But wait, there's more!!!");
+        scnr.nextLine();
+        System.out.println("*music*");
         player.play(q2);
         player.play(q1, q2);
         System.out.println();
